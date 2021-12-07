@@ -1,8 +1,6 @@
 # MercadoLibreChallenge
 MercadoLibre challenge
 
-Librerias:
-
 Arquitectura y Diseño: 
 MVVM -> Utilize una arquitectura limpia, patron de repositorio, data source, para menejar las capas de datos, capa de presentacion y ui, desacoplada. 
 Navigation component -> Dado que es únicamente una aplicación con tres pantallas en donde la función principal es desplegar un listado de 
