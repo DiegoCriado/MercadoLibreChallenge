@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.myapplication.ui.welcome.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_searchProductFragment"
+            app:destination="@id/searchProductFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchProductFragment"
+        android:name="com.example.myapplication.ui.search.SearchProductFragment"
+        android:label="fragment_search_product"
+        tools:layout="@layout/fragment_search_product" >
+        <action
+            android:id="@+id/action_searchProductFragment_to_productFragment"
+            app:destination="@id/productFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.example.myapplication.ui.product.ProductFragment"
+        android:label="fragment_product"
+        tools:layout="@layout/fragment_product" >
+        <action
+            android:id="@+id/action_productFragment_to_detailProductFragment"
+            app:destination="@id/detailProductFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailProductFragment"
+        android:name="com.example.myapplication.ui.detail.DetailProductFragment"
+        android:label="fragment_detail_product"
+        tools:layout="@layout/fragment_detail_product" >
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="price"
+            app:argType="string" />
+        <argument
+            android:name="image"
+            app:argType="string" />
+    </fragment>
+</navigation>

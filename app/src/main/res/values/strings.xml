@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="listado_de_productos_relacionados">Listado de productos relacionados:</string>
+    <string name="detalle_de_prodcuto">Detalle de prodcuto:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="precio">Precio:</string>
+    <string name="preguntale_al_vendedor">Preguntale al vendedor</string>
+    <string name="comprar_ahora">Comprar ahora</string>
+    <string name="agegar_al_carrito">Agegar al carrito</string>
+    <string name="escribe_tu_pregunta">Escribe tu pregunta...</string>
+    <string name="preguntar">Preguntar</string>
+    <string name="ingresar">INGRESAR</string>
+    <string name="bienvenido">Bienvenido!</string>
+</resources>
